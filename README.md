@@ -45,7 +45,7 @@ which is the Potato URL starting with `potato://`, and launch your app
 with the parameters it needs.
 
 You can make this executable in Bash, Python, or whatever you prefer,
-just make sure specify in the `Exec` field of the `potato-handler.desktop`
+just make sure you specify in the `Exec` field of the `potato-handler.desktop`
 how to execute it.
 
 ## Unregistering your custom protocol
