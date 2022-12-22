@@ -27,13 +27,14 @@ sudo update-desktop-database
 ```
 
 Check the `mimeinfo.cache` file.
-This file is the cache database created by update-desktop-database.
+This file is the cache database created by `update-desktop-database`.
 
-You will probably find multiple ones, under `/applications` of every directory in `$XDG_DATA_DIRS`
+You will probably find multiple ones, 
+under `/applications` of every directory in `$XDG_DATA_DIRS`.
 
-In the potato example, you will find the 
-`x-scheme-handler/potato` registered to `potato-handler.desktop` 
-in the `mimeinfo.cache` of `/usr/share/applications/` since we created
+In the potato example, you should find an entry 
+`x-scheme-handler/potato` with the value `potato-handler.desktop` 
+in the `mimeinfo.cache` of `/usr/share/applications/`, since we created
 the `potato-handler.desktop` file there.
 
 Now, create the `/usr/share/potato/potato-handler` executable that
