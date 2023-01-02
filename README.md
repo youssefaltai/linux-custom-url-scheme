@@ -15,8 +15,8 @@ Exec=/usr/share/potato/potato-handler %u
 Terminal=false
 Type=Application
 MimeType=x-scheme-handler/potato;
-Icon=sublime-text-2
-Categories=TextEditor;Development;Utility;
+Icon=potato-icon
+Categories=Development;Utility;
 Name[en_US]=potato URL Handler
 ```
 
