@@ -1,4 +1,4 @@
-# How to register custom protocols in Linux
+# How to register custom URL schemes in Linux
 
 #### This was tested on Ubuntu 22.10
 
