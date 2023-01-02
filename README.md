@@ -48,7 +48,7 @@ You can make this executable in Bash, Python, or whatever you prefer,
 just make sure you specify in the `Exec` field of the `potato-handler.desktop`
 how to execute it.
 
-## Unregistering your custom protocol
+## Undoing what we just did
 
 Just remove the directory `/usr/share/potato/` 
 with the `potato-handler` executable inside it,
