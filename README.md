@@ -1,7 +1,5 @@
 # How to register custom URL schemes in Linux
 
-#### This was tested on Ubuntu 22.10
-
 First, create a desktop file in `/usr/share/applications/`
 
 ###### potato-handler.desktop
